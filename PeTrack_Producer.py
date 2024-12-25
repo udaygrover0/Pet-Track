@@ -32,7 +32,7 @@ def main():
     pet_data = read_pet_data_from_csv('pet_wellness_next_2_days_10k.csv')
     
     # Initialize MongoDB client
-    client = MongoClient("mongodb+srv://321057:7BUI93T94CPeg2no@pettrack.6mnfk.mongodb.net/" )  # Replace with your MongoDB connection string
+    client = MongoClient("mongodb+srv://(userID):(password)@pettrack.6mnfk.mongodb.net/" )  # Replace with your MongoDB connection string
     db = client['PeTrack']  # Database name
     collection = db['PeTrack']  # Collection name
 
