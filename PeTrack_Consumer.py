@@ -29,7 +29,7 @@ producer = KafkaProducer(
 )
 
 # Connect to MongoDB
-mongo_client = MongoClient("mongodb+srv://321057:7BUI93T94CPeg2no@pettrack.6mnfk.mongodb.net/")
+mongo_client = MongoClient("mongodb+srv://(userID):(password)@pettrack.6mnfk.mongodb.net/")
 db = mongo_client['PeTrack']  # Database name
 pet_data_collection = db['PeTrack']  # Collection for pet data
 alerts_collection = db['alerts']  # Collection for alerts
