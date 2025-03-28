@@ -54,7 +54,7 @@ PeTrack is a robust system designed to monitor and analyze the health and activi
 ### Steps
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/PeTrack.git
+   git clone https://github.com/udaygrover0/Pet-Track.git
    cd PeTrack
    ```
 2. **Install Dependencies**:
