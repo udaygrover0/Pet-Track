@@ -57,21 +57,17 @@ PeTrack is a robust system designed to monitor and analyze the health and activi
    git clone https://github.com/udaygrover0/Pet-Track.git
    cd PeTrack
    ```
-2. **Install Dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. **Set Up Kafka and MongoDB**:
+2. **Set Up Kafka and MongoDB**:
    - Replace `localhost:9092` and MongoDB connection strings in the scripts.
-4. **Run the Producer**:
+3. **Run the Producer**:
    ```bash
    python PeTrack_Producer.py
    ```
-5. **Run the Consumer**:
+4. **Run the Consumer**:
    ```bash
    python PeTrack_Consumer.py
    ```
-6. **Explore Visualizations**:
+5. **Explore Visualizations**:
    Open `Pet Health.pdf` to view the analysis and reports.
 
 ## Repository Structure
@@ -82,7 +78,6 @@ PeTrack/
 ├── PeTrack_Consumer.py     # Consumer code for processing and alerts
 ├── Pet Health.pdf          # Analysis and visualizations
 ├── README.md               # Project documentation
-└── requirements.txt        # Dependencies
 ```
 
 ## Future Enhancements
@@ -91,4 +86,4 @@ PeTrack/
 - Machine learning models for predictive health insights.
 
 ## Acknowledgments
-This project was developed to demonstrate real-time data processing using Kafka and MongoDB with practical applications in pet health monitoring.
+This project was developed to demonstrate real-time data processing using Kafka and MongoDB with practical applications in pet health monitoring. Special Thanks to Mr. Aditya Dua for his guidance throughout the project and course.
